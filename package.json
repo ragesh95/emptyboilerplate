@@ -1,0 +1,29 @@
+{
+  "name": "Z",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "mocha",
+    "wpbuild": "node ./node_modules/webpack/bin/webpack.js",
+    "gbuild": "gulp lint",
+    "clean": "gulp clean",
+    "start": "nodemon -L bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stackroute-immersive-wave/Zynla.git"
+  },
+  "keywords": [
+    "zynla",
+    "search",
+    "collaborative search",
+    "semantic",
+    "graph",
+    "nodejs"
+  ],
+  "author": "StackRoute",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/stackroute-immersive-wave/Zynla/issues"
+  },
+  "homepage": "https://github.com/stackroute-immersive-wave/Zynla#readme"
+}

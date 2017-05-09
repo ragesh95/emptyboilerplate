@@ -1,0 +1,19 @@
+[30 04 2017 09:26:46.579] [DEBUG] - Mongoose is now disconnected..!
+[30 04 2017 09:26:46.583] [ERROR] - Error in Mongoose connection:  { MongoError: failed to connect to server [172.23.238.195:27017] on first connect [MongoError: connection 0 to 172.23.238.195:27017 timed out]
+    at Pool.<anonymous> (/home/ubuntu/mern/zynla/node_modules/mongodb-core/lib/topologies/server.js:328:35)
+    at emitOne (events.js:96:13)
+    at Pool.emit (events.js:191:7)
+    at Connection.<anonymous> (/home/ubuntu/mern/zynla/node_modules/mongodb-core/lib/connection/pool.js:274:12)
+    at Object.onceWrapper (events.js:293:19)
+    at emitTwo (events.js:106:13)
+    at Connection.emit (events.js:194:7)
+    at Socket.<anonymous> (/home/ubuntu/mern/zynla/node_modules/mongodb-core/lib/connection/connection.js:187:10)
+    at Object.onceWrapper (events.js:293:19)
+    at emitNone (events.js:86:13)
+    at Socket.emit (events.js:188:7)
+    at Socket._onTimeout (net.js:350:8)
+    at ontimeout (timers.js:386:14)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+  name: 'MongoError',
+  message: 'failed to connect to server [172.23.238.195:27017] on first connect [MongoError: connection 0 to 172.23.238.195:27017 timed out]' }
